@@ -126,9 +126,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-white animate-fade-in">
-              <h1 className="md:text-7xl font-bold mb-6 leading-tight text-[#000000] text-6xl">
-                Мультфильмы. Инструкция по эксплуатации
-              </h1>
+              <h1 className="md:text-7xl font-bold mb-6 leading-tight text-[#000000] text-6xl">Инструкция по эксплуатации</h1>
               <p className="text-xl md:text-2xl mb-8 text-[#000000]">Практические видеоуроки от экспертов отрасли. Курс по созданию мультфильмов</p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-white text-black hover:bg-white/90 font-semibold px-8 py-6 text-lg rounded-full" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>
