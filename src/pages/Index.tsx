@@ -258,7 +258,7 @@ const Index = () => {
       <section id="pricing" className="py-20 bg-gradient-to-b from-white to-accent/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text text-[#000000]">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">
               Выберите тариф
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -317,7 +317,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16 animate-fade-in">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">
                 Частые вопросы
               </h2>
               <p className="text-xl text-muted-foreground">
@@ -348,11 +348,11 @@ const Index = () => {
       <section id="contact" className="py-20 gradient-coral-teal">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-12 text-white animate-fade-in">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            <div className="text-center mb-12 animate-fade-in">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">
                 Остались вопросы?
               </h2>
-              <p className="text-xl text-white/90">
+              <p className="text-xl text-black">
                 Напишите нам, и мы свяжемся с вами в течение 24 часов
               </p>
             </div>
