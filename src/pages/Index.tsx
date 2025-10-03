@@ -133,10 +133,10 @@ const Index = () => {
                 Практические видеоуроки от экспертов отрасли. Начни карьеру мечты уже сегодня!
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-6 text-lg rounded-full">
+                <Button size="lg" className="bg-white text-black hover:bg-white/90 font-semibold px-8 py-6 text-lg rounded-full">
                   Начать обучение
                 </Button>
-                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-6 text-lg rounded-full">
+                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-black font-semibold px-8 py-6 text-lg rounded-full">
                   Смотреть демо
                 </Button>
               </div>
