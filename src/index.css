@@ -15,24 +15,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    --primary: 0 100% 70%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 45 100% 51%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 195 71% 55%;
+    --secondary: 0 0% 10%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 10 100% 88%;
-    --accent-foreground: 220 15% 15%;
+    --accent: 48 100% 88%;
+    --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 0 100% 70%;
+    --ring: 45 100% 51%;
 
     --radius: 1rem;
 
@@ -115,11 +115,11 @@
 
 @layer utilities {
   .gradient-coral-teal {
-    background: linear-gradient(135deg, #ff6b6b 0%, #45b7d1 100%);
+    background: linear-gradient(135deg, #ffd700 0%, #1a1a1a 100%);
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #ff6b6b 0%, #45b7d1 100%);
+    background: linear-gradient(135deg, #ffd700 0%, #ffa500 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
