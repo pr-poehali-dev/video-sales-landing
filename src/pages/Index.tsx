@@ -129,9 +129,7 @@ const Index = () => {
               <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                 Мультфильмы. Инструкция по эксплуатации
               </h1>
-              <p className="text-xl md:text-2xl mb-8 text-white/90">
-                Практические видеоуроки от экспертов отрасли. Начни карьеру мечты уже сегодня!
-              </p>
+              <p className="text-xl md:text-2xl mb-8 text-[#000000]">Практические видеоуроки от экспертов отрасли. Курс по созданию мультфильмов</p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-white text-black hover:bg-white/90 font-semibold px-8 py-6 text-lg rounded-full">
                   Начать обучение
