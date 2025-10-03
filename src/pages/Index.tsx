@@ -386,7 +386,7 @@ const Index = () => {
                   <Button 
                     type="submit" 
                     size="lg" 
-                    className="w-full gradient-coral-teal text-white font-semibold text-lg py-6"
+                    className="w-full gradient-coral-teal text-black font-semibold text-lg py-6"
                   >
                     Отправить сообщение
                   </Button>
