@@ -177,7 +177,7 @@ const Index = () => {
       <section id="program" className="py-20 bg-gradient-to-b from-white to-accent/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text text-[#000000]">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">
               Программа курса
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -215,7 +215,7 @@ const Index = () => {
       <section className="py-20 bg-gradient-to-b from-accent/20 to-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text text-[#000000]">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">
               Отзывы учеников
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
