@@ -126,7 +126,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-white animate-fade-in">
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+              <h1 className="md:text-7xl font-bold mb-6 leading-tight text-[#000000] text-6xl">
                 Мультфильмы. Инструкция по эксплуатации
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-[#000000]">Практические видеоуроки от экспертов отрасли. Курс по созданию мультфильмов</p>
