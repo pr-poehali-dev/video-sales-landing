@@ -131,11 +131,11 @@ const Index = () => {
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-[#000000]">Практические видеоуроки от экспертов отрасли. Курс по созданию мультфильмов</p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-white text-black hover:bg-white/90 font-semibold px-8 py-6 text-lg rounded-full">
+                <Button size="lg" className="bg-white text-black hover:bg-white/90 font-semibold px-8 py-6 text-lg rounded-full" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>
                   Начать обучение
                 </Button>
-                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-black font-semibold px-8 py-6 text-lg rounded-full">
-                  Смотреть демо
+                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-black font-semibold px-8 py-6 text-lg rounded-full" onClick={() => document.getElementById('program')?.scrollIntoView({ behavior: 'smooth' })}>
+                  Смотреть программу
                 </Button>
               </div>
               <div className="flex gap-8 mt-12">
@@ -255,7 +255,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-b from-white to-accent/20">
+      <section id="pricing" className="py-20 bg-gradient-to-b from-white to-accent/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text text-[#000000]">
@@ -313,7 +313,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-b from-accent/20 to-white">
+      <section id="faq" className="py-20 bg-gradient-to-b from-accent/20 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16 animate-fade-in">
@@ -345,7 +345,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 gradient-coral-teal">
+      <section id="contact" className="py-20 gradient-coral-teal">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-12 text-white animate-fade-in">
